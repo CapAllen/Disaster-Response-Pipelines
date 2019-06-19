@@ -83,20 +83,22 @@ This web application designed with bootstrap to:
 
 ## 4. Files
 
-├── app
+```
+├── app/
 │   ├── run.py------------------------# FLASK FILE THAT RUNS APP
 │   ├── static
 │   │   └── favicon.ico---------------# FAVICON FOR THE WEB APP
 │   └── templates
 │       ├── go.html-------------------# CLASSIFICATION RESULT PAGE OF WEB APP
 │       └── master.html---------------# MAIN PAGE OF WEB APP
-├── data
+├── data/
 │   ├── disaster_categories.csv-------# DATA TO PROCESS
 │   ├── disaster_messages.csv---------# DATA TO PROCESS
 │   └── process_data.py---------------# ETL PIPELINE
 ├── imgs------------------------------# SCREENSHOTS OF THE WEB APP
-├── models
+├── models/
 │   └── train_classifier.py-----------# MACHINE LEARNING PIPELINE
+```
 
 <a id='credits'></a>
 
